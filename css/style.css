@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap')
+
+body {
+    font-family: 'Alata', sans-serif;
+    font-size: 18px;
+    width: 100%;
+    border:none;
+    scroll-behaviour: smooth;
+    font-color: pink;
+     
+}
+
+@media (max-width: 30em) {
+    #navbar {
+        justify-content: center;
+    }
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
